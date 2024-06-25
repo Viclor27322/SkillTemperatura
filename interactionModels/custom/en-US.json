@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "temperatura",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "ConversorIntent",
+          "samples": [
+            "give me the temperature {temperatura} degrees",
+            "converts temperature from {temperatura} degrees"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "convertidor temperatura"
+    }
+  }
+}
